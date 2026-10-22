@@ -1,13 +1,9 @@
-ASV RÉGIE Mobile V0.2 — prototype autonome, lecture seule
+ASV RÉGIE Mobile V0.3 — prototype confidentialité
 
-MISE A JOUR GITHUB PAGES
-Dans le dépôt GitHub existant asv-regie-mobile, remplacer à la racine : index.html, sw.js, manifest.webmanifest. Ajouter production-demo.json. Conserver les icônes. Après commit, attendre la coche verte Actions puis rouvrir le site avec Internet, attendre 15 s, fermer/réouvrir. Le cache hors connexion est versionné.
+Application mobile de consultation en lecture seule. Le fichier de démonstration fictif est intégré dans index.html. Aucun fichier de production réelle ne doit être téléversé sur GitHub.
 
-TEST
-Accueil > Charger la production fictive intégrée. Parcourir Planning (jour/lieu), Personnel, Contacts, Devis (PDF). Fermer l'app, activer mode Avion, relancer : données et PDF doivent rester disponibles.
+Installer : remplacer index.html, sw.js, manifest.webmanifest sur GitHub Pages. Garder icon.png et icon-512.png. Attendre la coche verte de déploiement. Ouvrir le site dans Safari en ligne, attendre le chargement, puis tester le mode Avion.
 
-IMPORT
-Accueil > Importer un fichier de production > choisir production-demo.json depuis Fichiers iOS. Une seule production est stockée localement dans IndexedDB. Le fichier est du JSON avec format asv-regie-mobile, version 1, production, events, people, contacts, quotes. PDF intégré en base64. Aucune donnée de production n'est envoyée au serveur. Le JSON de démonstration est public et fictif.
+Confidentialité : import manuel JSON via le sélecteur de fichiers iOS, enregistrement local IndexedDB, aucune requête réseau prévue pour les données importées. CSP connect-src none. Ne chiffre PAS les données locales. Safari/iOS peut supprimer les données du site; garder une copie du fichier d'import. Les copies dans iCloud, sauvegardes iPhone ou partages de fichiers dépendent des réglages de l'appareil. Le code public de GitHub Pages peut être modifié par les détenteurs d'accès au dépôt; ne pas importer de données sensibles sans revue indépendante et maîtrise des mises à jour.
 
-LIMITES
-Prototype de validation, pas encore compatible avec un export direct de l'application ASV RÉGIE ordinateur. Les PDF sont intégrés au JSON, taille max du fichier 18 Mo, 10 Mo par PDF encodé. Les données sont propres à cet appareil/navigateur et peuvent être supprimées par iOS si stockage effacé. Ne pas utiliser comme sauvegarde unique. Ne pas publier de données réelles sur GitHub.
+Aucune modification du logiciel ordinateur ASV RÉGIE V48.6.
