@@ -1,0 +1,121 @@
+{
+  "format": "asv-regie-mobile",
+  "version": 1,
+  "production": {
+    "name": "Festival Horizon",
+    "period": "24–25 octobre 2026",
+    "description": "Production fictive pour tester un import hors connexion."
+  },
+  "events": [
+    {
+      "day": "2026-10-24",
+      "place": "Grande salle",
+      "start": "08:00",
+      "end": "12:00",
+      "phase": "Montage",
+      "desc": "Installation son et lumière",
+      "staff": "2 TP · 2 TL · 2 roadies"
+    },
+    {
+      "day": "2026-10-24",
+      "place": "Hall",
+      "start": "09:00",
+      "end": "11:00",
+      "phase": "Conférence",
+      "desc": "Essais micros",
+      "staff": "1 TP"
+    },
+    {
+      "day": "2026-10-25",
+      "place": "Grande salle",
+      "start": "18:00",
+      "end": "20:00",
+      "phase": "Spectacle",
+      "desc": "Représentation",
+      "staff": "2 TP · 2 TL · 2 roadies"
+    },
+    {
+      "day": "2026-10-25",
+      "place": "Grande salle",
+      "start": "21:00",
+      "end": "23:00",
+      "phase": "Démontage",
+      "desc": "Dépose technique",
+      "staff": "2 TP · 2 TL · 3 roadies"
+    }
+  ],
+  "people": [
+    {
+      "name": "Camille Bernard",
+      "job": "Régie générale",
+      "shifts": [
+        {
+          "day": "2026-10-24",
+          "start": "08:00",
+          "end": "18:00",
+          "place": "Grande salle"
+        },
+        {
+          "day": "2026-10-25",
+          "start": "10:00",
+          "end": "23:00",
+          "place": "Grande salle"
+        }
+      ]
+    },
+    {
+      "name": "Alex Martin",
+      "job": "TP",
+      "shifts": [
+        {
+          "day": "2026-10-24",
+          "start": "08:00",
+          "end": "12:00",
+          "place": "Grande salle"
+        },
+        {
+          "day": "2026-10-25",
+          "start": "18:00",
+          "end": "23:00",
+          "place": "Grande salle"
+        }
+      ]
+    },
+    {
+      "name": "Samira Petit",
+      "job": "TL",
+      "shifts": [
+        {
+          "day": "2026-10-24",
+          "start": "08:00",
+          "end": "12:00",
+          "place": "Grande salle"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Camille Bernard",
+      "job": "Régie générale",
+      "tel": "+33600000001",
+      "mail": "camille@example.org"
+    },
+    {
+      "name": "Léa Moreau",
+      "job": "Responsable du lieu",
+      "tel": "+33600000002",
+      "mail": "lea@example.org"
+    }
+  ],
+  "quotes": [
+    {
+      "number": "DEV-2026-001",
+      "supplier": "SON DEMO",
+      "category": "Location technique son",
+      "filename": "devis-demo.pdf",
+      "mime": "application/pdf",
+      "base64": "JVBERi0xLjMKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDU5NSA4NDIgXSAvUGFyZW50IDcgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjUgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA3IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNiAwIG9iago8PAovQXV0aG9yIChhbm9ueW1vdXMpIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjEwMjIxOTM2NDQrMDAnMDAnKSAvQ3JlYXRvciAoYW5vbnltb3VzKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjEwMjIxOTM2NDQrMDAnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAodW5zcGVjaWZpZWQpIC9UaXRsZSAodW50aXRsZWQpIC9UcmFwcGVkIC9GYWxzZQo+PgplbmRvYmoKNyAwIG9iago8PAovQ291bnQgMSAvS2lkcyBbIDQgMCBSIF0gL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago4IDAgb2JqCjw8Ci9GaWx0ZXIgWyAvQVNDSUk4NURlY29kZSAvRmxhdGVEZWNvZGUgXSAvTGVuZ3RoIDMxNAo+PgpzdHJlYW0KR2FycCU7LDtmdSdGIUZockpMM0Y3Xiw+JGUyUTIrUCYrT0dlYj5yLD05RURuaWUtZEE+RU1UUT5hZExvXF1vPS8jUDNfM1txcFVXX0Y7SlwsPlxnakxHPEojUFNSYU1KUjxpZyZKKClfUzUyUGNgOU5lQj4rQkVXVm4+P15ZOjdkL0AkQyQkVTglVDxqXmlFPUgzS2lbZC9USFdkSCxDOjFZIlNjL2ZOTyI6NEhDK2lOOEJeQyZgOUleKTZmLC4ubCpnaChZMEomK3RPMTc3azkzYSFWb2gwKzAuTFZiaDBuRkgqOk9gbiYwWjJHbUtiWFlMQzRiKlY8NEg9Oy1wUT41VitYYDlubkRHWCcmX1A6LztxUVk1Q11DPT4iaVBuWTxgbTRPW29Qa0Q5b2g8MFwkYXUoOD9pfj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCA5CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMTAyIDAwMDAwIG4gCjAwMDAwMDAyMDkgMDAwMDAgbiAKMDAwMDAwMDMyMSAwMDAwMCBuIAowMDAwMDAwNTE0IDAwMDAwIG4gCjAwMDAwMDA1ODIgMDAwMDAgbiAKMDAwMDAwMDg0MyAwMDAwMCBuIAowMDAwMDAwOTAyIDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPDcwZjdlYmI3MWM4Y2FhMjEwOWU3MGFlYmMxMTIwNjIxPjw3MGY3ZWJiNzFjOGNhYTIxMDllNzBhZWJjMTEyMDYyMT5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gNiAwIFIKL1Jvb3QgNSAwIFIKL1NpemUgOQo+PgpzdGFydHhyZWYKMTMwNgolJUVPRgo="
+    }
+  ]
+}
